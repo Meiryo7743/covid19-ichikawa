@@ -1,0 +1,22 @@
+{
+    "date": null,
+    "datasets": {
+        "date": null,
+        "data": [
+            {
+                "code": null,
+                "area": null,
+                "label": "調査中",
+                "ruby": null,
+                "count": null
+            },
+            {
+                "code": null,
+                "area": null,
+                "label": "小計",
+                "ruby": null,
+                "count": null
+            }
+        ]
+    }
+}
