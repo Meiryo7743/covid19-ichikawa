@@ -125,6 +125,12 @@
           <br />
           &copy; 2020 Tokyo Metropolitan Government
           -->
+          {{
+            $t(
+              '当サイトは，東京都 新型コロナウイルス感染症対策サイトの派生プロジェクト（fork）の一つです。'
+            )
+          }}
+          <br />
           &copy; 2020 Meiryo7743
         </small>
       </footer>
