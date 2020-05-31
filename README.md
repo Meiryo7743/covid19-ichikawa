@@ -15,5 +15,6 @@
 
 本ソフトウェアは，[MIT ライセンス](./LICENSE.txt)の下で提供されています。
 
+<!--
 ## その他
-- [感染者情報を取得するためのワークフロー](https://github.com/Meiryo7743/getData_covid19-ichikawa)を作成中です。GitHub Actions に詳しい方がいらっしゃいましたら，ご協力をお願いします。
+-->
