@@ -1,8 +1,13 @@
 {
   "newsItems": [
     {
-      "date": "2020/05/22",
+      "date": "2020/5/22",
       "text": "サイトを開設いたしました。"
+    },
+    {
+      "date": "2020/6/5",
+      "url":"https://www.city.ichikawa.lg.jp/new01/shingatacoronatokusetupage.html",
+      "text": "市川市の公式ページに，COVID-19 に関連する動きをまとめたページができたようです。"
     }
   ]
 }
