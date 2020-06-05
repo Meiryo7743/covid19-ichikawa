@@ -171,8 +171,9 @@ export default Vue.extend({
           link: this.localePath('/')
         },
         {
-          title: this.$t('新型コロナウイルスに関する対応等について'),
-          link: 'http://www.city.ichikawa.lg.jp/pub10/1111000206.html'
+          title: this.$t('新型コロナウイルス情報'),
+          link:
+            'https://www.city.ichikawa.lg.jp/new01/shingatacoronatokusetupage.html'
         },
         {
           title: this.$t('特別定額給付金の給付について'),
@@ -183,13 +184,17 @@ export default Vue.extend({
           link: 'http://www.city.ichikawa.lg.jp/edu01/1111000194.html'
         },
         {
-          title: this.$t('施設等の一部休館について'),
-          link: 'http://www.city.ichikawa.lg.jp/pla04/infoheisa.html',
-          divider: true
+          title: this.$t('施設等の再開について'),
+          link: 'http://www.city.ichikawa.lg.jp/pla04/infoheisa.html'
+        },
+        {
+          title: this.$t('「燃やすごみ」の臨時収集について'),
+          link: 'https://www.city.ichikawa.lg.jp/env09/1111000058.html'
         },
         {
           title: this.$t('市長からのメッセージ'),
-          link: 'http://www.city.ichikawa.lg.jp/pub10/1111000206.html#m04'
+          link: 'http://www.city.ichikawa.lg.jp/pub10/1111000206.html#m04',
+          divider: true
         },
         {
           title: this.$t('当サイトについて'),
