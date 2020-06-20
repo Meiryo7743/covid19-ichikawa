@@ -177,15 +177,15 @@ export default Vue.extend({
         },
         {
           title: this.$t('特別定額給付金の給付について'),
-          link: 'http://www.city.ichikawa.lg.jp/pla13/1111000003.html'
+          link: 'https://www.city.ichikawa.lg.jp/pla13/1111000003.html'
         },
         {
           title: this.$t('市立の学校・幼稚園に関する最新情報'),
-          link: 'http://www.city.ichikawa.lg.jp/edu01/1111000194.html'
+          link: 'https://www.city.ichikawa.lg.jp/edu01/1111000194.html'
         },
         {
           title: this.$t('施設等の再開について'),
-          link: 'http://www.city.ichikawa.lg.jp/pla04/infoheisa.html'
+          link: 'https://www.city.ichikawa.lg.jp/pla04/infoheisa.html'
         },
         {
           title: this.$t('「燃やすごみ」の臨時収集について'),
@@ -193,7 +193,7 @@ export default Vue.extend({
         },
         {
           title: this.$t('市長からのメッセージ'),
-          link: 'http://www.city.ichikawa.lg.jp/pub10/1111000206.html#m04',
+          link: 'https://www.city.ichikawa.lg.jp/new01/covid19_comment.html',
           divider: true
         },
         {
@@ -206,7 +206,7 @@ export default Vue.extend({
         },
         {
           title: this.$t('市川市公式ホームページ'),
-          link: 'http://www.city.ichikawa.lg.jp/'
+          link: 'https://www.city.ichikawa.lg.jp/'
         }
       ]
     }
