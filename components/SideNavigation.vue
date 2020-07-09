@@ -181,7 +181,7 @@ export default Vue.extend({
         },
         {
           title: this.$t('市立の学校・幼稚園に関する最新情報'),
-          link: 'https://www.city.ichikawa.lg.jp/edu01/1111000194.html'
+          link: 'https://www.city.ichikawa.lg.jp/edu06/1111000082.html'
         },
         {
           title: this.$t('施設等の再開について'),

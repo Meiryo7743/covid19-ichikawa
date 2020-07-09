@@ -17,14 +17,14 @@
     <static-info
       class="mb-4"
       :url="localePath('/about')"
-      :text="$t('当サイトは，個人が作成した「非公式サイト」です。ご注意ください。')"
+      :text="
+        $t('当サイトは，個人が作成した「非公式サイト」です。ご注意ください。')
+      "
       :btn-text="$t('当サイトについて')"
     />
     <static-info
       class="mb-4"
-      :url="localePath('/contacts')"
-      :text="$t('当サイトへの問い合わせ方法は，こちらからご確認いただけます。')"
-      :btn-text="$t('お問い合わせ')"
+      :text="$t('GitHub から当サイトの更新・改善にご協力いただけます。')"
     />
     <card-row class="DataBlock">
       <!-- 検査陽性者の状況 -->
@@ -67,14 +67,14 @@ import News from '@/data/news.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
-//import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCasesByMunicipalitiesCard.vue'
-//import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
-//import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNumberCard.vue'
-//import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
-//import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
-//import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
+// import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCasesByMunicipalitiesCard.vue'
+// import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
+// import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNumberCard.vue'
+// import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
+// import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
+// import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
 import MetroCard from '@/components/cards/MetroCard.vue'
-//import AgencyCard from '@/components/cards/AgencyCard.vue'
+// import AgencyCard from '@/components/cards/AgencyCard.vue'
 import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
 
 export default Vue.extend({
@@ -86,14 +86,14 @@ export default Vue.extend({
     ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     ConfirmedCasesAttributesCard,
-    //ConfirmedCasesByMunicipalitiesCard,
-    //TestedCasesDetailsCard,
-    //InspectionPersonsNumberCard,
-    //TestedNumberCard,
-    //TelephoneAdvisoryReportsNumberCard,
-    //ConsultationDeskReportsNumberCard,
+    // ConfirmedCasesByMunicipalitiesCard,
+    // TestedCasesDetailsCard,
+    // InspectionPersonsNumberCard,
+    // TestedNumberCard,
+    // TelephoneAdvisoryReportsNumberCard,
+    // ConsultationDeskReportsNumberCard,
     MetroCard
-    //AgencyCard
+    // AgencyCard
   },
   data() {
     const data = {
