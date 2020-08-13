@@ -202,7 +202,7 @@ export default Vue.extend({
         },
         {
           title: this.$t('お問い合わせ'),
-          link: this.localePath('/contacts')
+          link: 'https://forms.gle/rJAhPqckU1Ak7tFQ9'
         },
         {
           title: this.$t('市川市公式ホームページ'),
